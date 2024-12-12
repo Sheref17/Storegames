@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/style.css">
 
     <style>
-        body{
+           body{
             display: block;
         }
         p , h1 {
@@ -21,8 +21,7 @@
             flex-wrap: wrap;
             justify-content: space-between;
             align-items: center;
-            row-gap: 10px;
-  
+              
 
         }
         .content{
@@ -36,6 +35,27 @@
         .content img {
             width: 100%;
    
+        }
+        @media (max-width:916px) {
+          .Games {
+          display:flex;
+          flex-direction: column;  
+          row-gap: 50px;
+ 
+               
+
+
+      
+        
+
+          }
+          .content{
+            width: 100%;
+            box-shadow: 0 0 50px rgba((0), 0, 0, .5);
+            backdrop-filter: blur(20px);
+            text-align: center;
+          }
+
         }
     </style>
 </head>
